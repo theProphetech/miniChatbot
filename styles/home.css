@@ -1,0 +1,56 @@
+.home--page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    /* display: none; */
+}
+.hidden {
+    display: none;
+}
+.home--ltCol {
+    width: 100%;
+    padding: 0 6rem;
+
+}
+
+.home--ltCol h1 {
+    font-size: 40px;
+}
+.p--cover{
+    padding:  0 5rem 0 0;
+}
+.home--rtCol {
+    /* border: 2px solid red; */
+    width: 100%;
+
+}
+
+.icon--con {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 1rem 0 1rem 10rem;
+
+}
+
+.chat--icon {
+    width: 100px;
+}
+
+.start--btn--con {
+    width: 100%;
+    /* text-align: center; */
+
+}
+
+.start--btn {
+    display: inline-block;
+    position: relative;
+    transform: translate(10rem, 0);
+    color: var(--txt--clr);
+    letter-spacing: 1px;
+    padding-top:  0.8rem ;
+    padding-bottom: 0.8rem;
+    border-radius: 5px;
+}

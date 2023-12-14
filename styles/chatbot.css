@@ -1,0 +1,90 @@
+.chatbot--section {
+    height: 100vh;
+    width: 100%;
+    /* display: none; */
+}
+
+#chatbotCon {
+    --chatbotBG: hsla(0, 3%, 20%, 1);
+    padding: 1rem 0.8rem;
+    /* border: 2px solid red; */
+    max-width: 450px;
+    margin: 5rem auto;
+    background-color: var(--chatbotBG);
+    border-radius: 10px;
+}
+
+.chatdisplay--con {
+    /* border: 2px solid green; */
+    height: 250px;
+    max-height: 300px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.input--con {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0rem 0.8rem;
+}
+
+.userInput {
+    border-radius: 10px;
+    background: #000;
+}
+
+.sendBtn--con {
+    margin-top: 1rem;
+    padding: 0 0.8rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.sendBtn--con>button {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+}
+
+.close--btn {
+    --closeBg: hsla(0, 70%, 40%, 1);
+    background: var(--closeBg);
+}
+
+.user--con {
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0.3rem;
+}
+.bot--con {
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.3rem;
+}
+.user {
+    border: 2px solid red;
+    padding: 0.3rem;
+    border-radius: 100px;
+    width: max-content;
+    color: var(--txt--clr);
+}
+
+.bot {
+    border: 2px solid green;
+    padding: 0.3rem;
+    border-radius: 10px;
+    color: var(--txt--clr);
+    width: max-content;
+    /* word-break: break-all; */
+}
